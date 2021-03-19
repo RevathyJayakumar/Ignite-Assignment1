@@ -2,10 +2,8 @@ public class Qn12 {
 
     public static void main(String[] args) {
 
-        int length = 16;
-        int height = 8;
-
-        for (int i = 0; i <= height; i++)
+        int n = Integer.parseInt(args[0]);
+        for (int i = 0; i <= n; i++)
         {
             if (i % 2 == 0)
             {
@@ -15,7 +13,7 @@ public class Qn12 {
             {
                 System.out.print(" ");
             }
-            for (int j = 0; j <= length; j++)
+            for (int j = 0; j <= n; j++)
             {
                 if (j % 2 == 0)
                 {
